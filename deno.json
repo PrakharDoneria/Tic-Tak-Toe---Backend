@@ -5,9 +5,5 @@
   "tasks": {
     "start": "deno run --allow-net --allow-read --unstable index.ts",
     "dev": "deno run --allow-net --allow-read --allow-env --unstable index.ts"
-  },
-  "imports": {
-    "kv": "https://deno.land/x/kv/mod.ts",
-    "deno_cron": "https://deno.land/x/deno_cron/mod.ts"
   }
 }
